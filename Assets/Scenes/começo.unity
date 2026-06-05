@@ -520,4 +520,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb2d: {fileID: 0}
-  vel: 50
+  vel: 40
