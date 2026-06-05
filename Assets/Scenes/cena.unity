@@ -523,6 +523,7 @@ MonoBehaviour:
   rb2d: {fileID: 0}
   vel: 40
   jumpForce: 5
+  groundCheck: {fileID: 2013946135}
 --- !u!1 &1502876802
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class PersonagemController : MonoBehaviour
     public Rigidbody2D rb2d;
     public float vel;
     public float jumpForce;
+    public GameObject groundCheck;
 
     void Start()
     {
