@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 1195908574}
   m_Layer: 0
   m_Name: Personagem
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -646,8 +646,10 @@ GameObject:
   - component: {fileID: 2007283103}
   - component: {fileID: 2007283102}
   - component: {fileID: 2007283101}
+  - component: {fileID: 2007283105}
+  - component: {fileID: 2007283104}
   m_Layer: 0
-  m_Name: coin3_16x16_0
+  m_Name: Moeda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -734,13 +736,41 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007283100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5388, y: -2.52, z: 0}
-  m_LocalScale: {x: 4.8897, y: 4.3283, z: 1}
+  m_LocalPosition: {x: -5.5388, y: -2.2696, z: 0}
+  m_LocalScale: {x: 4.8897, y: 7.4580936, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2007283104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007283100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7a734ce60a9b140b365799414024ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &2007283105
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007283100}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.08
 --- !u!1 &2013946135
 GameObject:
   m_ObjectHideFlags: 0
