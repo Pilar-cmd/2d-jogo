@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Pontuacao : MonoBehaviour
 {
-    // Start is called before the first frame update
+    float point = 0;
+    public TextMeshProUGUI scoreText;
+
     void Start()
     {
-        
+        scoreText = "0";
     }
-
-    // Update is called once per frame
-    void Update()
+    public void AddPoints()
     {
-        
+        points++;
+        scoreText = points.ToString();
     }
 }
