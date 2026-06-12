@@ -5,16 +5,16 @@ using TMPro;
 
 public class Pontuacao : MonoBehaviour
 {
-    float point = 0;
+    float points = 0;
     public TextMeshProUGUI scoreText;
 
     void Start()
     {
-        scoreText = "0";
+        scoreText.text = "0";
     }
     public void AddPoints()
     {
         points++;
-        scoreText = points.ToString();
+        scoreText.text = points.ToString();
     }
 }
