@@ -868,7 +868,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 1
-  m_Offset: {x: 15.595528, y: 3.6823459}
+  m_Offset: {x: 15.542587, y: 3.6823463}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -879,7 +879,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 43.228104, y: 18.269745}
+  m_Size: {x: 43.122223, y: 18.269745}
   m_EdgeRadius: 0
 --- !u!66 &897281678
 CompositeCollider2D:
@@ -901,20 +901,20 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 897281677}
     m_ColliderPaths:
-    - - X: 372095808
+    - - X: 371036992
         Y: 128172184
       - X: -60185240
         Y: 128172184
       - X: -60185240
-        Y: -54525264
-      - X: 372095808
-        Y: -54525264
+        Y: -54525260
+      - X: 371036992
+        Y: -54525260
   m_CompositePaths:
     m_Paths:
-    - - {x: 37.209553, y: -5.4525266}
-      - {x: 37.209553, y: 12.817219}
+    - - {x: 37.103672, y: -5.452526}
+      - {x: 37.103672, y: 12.817219}
       - {x: -6.018524, y: 12.817189}
-      - {x: -6.018495, y: -5.4525266}
+      - {x: -6.018495, y: -5.452526}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &897281679
@@ -1523,6 +1523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2131245132}
   - component: {fileID: 2131245131}
+  - component: {fileID: 2131245133}
   m_Layer: 0
   m_Name: Virtual Camera
   m_TagString: Untagged
@@ -1584,6 +1585,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2131245133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131245130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f453f694addf4275988fac205bc91968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BoundingShape2D: {fileID: 897281678}
+  m_Damping: 0.5
+  m_MaxWindowSize: -1
+  m_Padding: 0
 --- !u!1001 &3233585570177771395
 PrefabInstance:
   m_ObjectHideFlags: 0
