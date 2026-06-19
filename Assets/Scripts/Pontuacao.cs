@@ -10,11 +10,11 @@ public class Pontuacao : MonoBehaviour
 
     void Start()
     {
-        scoreText.text = "0";
+        scoreText.text = "Pontos: 0";
     }
     public void AddPoints()
     {
         points++;
-        scoreText.text = points.ToString();
+        scoreText.text = "Pontos: " + points.ToString();
     }
 }
