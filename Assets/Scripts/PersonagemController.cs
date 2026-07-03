@@ -10,6 +10,8 @@ public class PersonagemController : MonoBehaviour
     public GameObject groundCheck;
     private GroundCheck groundCheckScript;
     
+    public GameObject puloParticle;
+
 
     void Start()
     {
@@ -29,6 +31,7 @@ public class PersonagemController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && groundCheckScript.isOnGround)
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpForce);
+            Instantiate(puloParticle, this.transform.position, Quaternion.Euler(-90, 0, 0));
         }
     }
 }
